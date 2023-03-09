@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.divContainer {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  border-radius: 8px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 21px;
+}
+.selectContainer {
+  border-color: #cbd2d9;
+  border-style: solid;
+  border-width: 1px;
+  outline: none;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+}
+.label {
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-size: 13px;
+  padding-left: 11px;
+  font-weight: 500;
+}
+.country {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+  .cardContainer {
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-radius: 12px;
+  }
+  .label {
+    font-size: 15px;
+  }
+  .country {
+    font-size: 21px;
+  }
+  .selectContainer {
+    padding-left: 9px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
